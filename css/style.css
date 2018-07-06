@@ -36,10 +36,10 @@
 /* common */
 ::selection { background: #555; color: #fff; text-shadow: none; }
 ::-moz-selection { background: #555; color: #fff; text-shadow: none; }
-body { background: url(../img/background.png) #eee; }
+body { background-color: white; }
 .container { max-width: 960px; }
 em { font-style: normal; }
-a, em { color: #ff7400 !important; }
+a, em { color: #f67280 !important; }
 a:hover { color: #cc5500; text-decoration: underline; }
 a.thumbnail { display: inline-block; position: relative; border-color: #999 !important; }
 .thumbnail-zoom { display: block; position: absolute; top: 0; left: 0; width: 100%; height: 100%; background: url(../img/thumbnail-zoom.png) center center no-repeat #000; }
