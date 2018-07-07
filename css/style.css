@@ -18,7 +18,7 @@
 .background-matter { background: url(../img/bg-matter.png) #000; }
 .background-metal { background: url(../img/bg-metal.png) #000; }
 .background-nami { background: url(../img/bg-nami.png) #000; }
-.background-navy { background: url(../img/bg-navy.png) #000; }
+.background-navy { background-color: #623785}
 .background-noisy { background: url(../img/bg-noisy.png) #000; }
 .background-office { background: url(../img/bg-office.png) #000; }
 .background-outlets { background: url(../img/bg-outlets.png) #000; }
@@ -178,7 +178,7 @@ input[type="color"],
 .uneditable-input { margin: 0; background: #f8f8f8; border: 0; padding: 5px 7px; }
 textarea { resize: none; }
 .border-stripes { display: inline-block; padding: 5px; background: url(../img/stripes.png); }
-.button { background: #000; border: 0; color: #fff; line-height: 40px; padding: 0 15px; }
+.button { background: #888; border: 0; color: #fff; line-height: 40px; padding: 0 15px; }
 .button:active { color: #888; }
 
 /* footer */
