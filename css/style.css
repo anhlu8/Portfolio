@@ -18,7 +18,7 @@
 .background-matter { background: url(../img/bg-matter.png) #000; }
 .background-metal { background: url(../img/bg-metal.png) #000; }
 .background-nami { background: url(../img/bg-nami.png) #000; }
-.background-navy { background-color: gray}
+.background-navy { background-color: #777}
 .background-noisy { background: url(../img/bg-noisy.png) #000; }
 .background-office { background: url(../img/bg-office.png) #000; }
 .background-outlets { background: url(../img/bg-outlets.png) #000; }
@@ -73,7 +73,7 @@ h6 { font-weight: 400; font-size: 14px; line-height: 12px; }
 
 /* header */
 header { text-align: center; margin-bottom: 20px; }
-header .logo { margin: 20px auto; width: 273px; height: 175px; }
+header .logo { margin: 20px auto; width: 400px; height: 175px; }
 header.fixed { margin-bottom: 120px; }
 header.fixed nav { background: inherit; width: 100%; position: fixed; top: 0; z-index: 9999; }
 
