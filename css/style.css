@@ -18,7 +18,7 @@
 .background-matter { background: url(../img/bg-matter.png) #000; }
 .background-metal { background: url(../img/bg-metal.png) #000; }
 .background-nami { background: url(../img/bg-nami.png) #000; }
-.background-navy { background-color: #623785}
+.background-navy { background-color: gray}
 .background-noisy { background: url(../img/bg-noisy.png) #000; }
 .background-office { background: url(../img/bg-office.png) #000; }
 .background-outlets { background: url(../img/bg-outlets.png) #000; }
@@ -39,7 +39,7 @@
 body { background-color: white; }
 .container { max-width: 960px; }
 em { font-style: normal; }
-a, em { color: #f67280 !important; }
+a, em { color: blue !important; }
 a:hover { color: #cc5500; text-decoration: underline; }
 a.thumbnail { display: inline-block; position: relative; border-color: #999 !important; }
 .thumbnail-zoom { display: block; position: absolute; top: 0; left: 0; width: 100%; height: 100%;/* background: url(../img/thumbnail-zoom.png) center center no-repeat #000;*/ }
@@ -52,10 +52,10 @@ h1 .left, h1 .right { margin-top: 15px; }
 h1 .left { width: 430px; float: left; }
 h1 .image { width: 100px; height: 75px; float: left; background-position: center top; background-repeat: no-repeat; }
 h1 .right { width: 430px; float: right; }
-h1 .image.about-me { background-image: url(../img/heading-about-me.png); }
-h1 .image.skills { background-image: url(../img/heading-skills.png); }
-h1 .image.projects { background-image: url(../img/heading-projects.png); }
-h1 .image.contacts { background-image: url(../img/heading-contacts.png); }
+h1 .image.about-me { background-image: url(../img/heading-about-me.png); margin-left:430px}
+h1 .image.skills { background-image: url(../img/heading-skills.png); margin-left:430px}
+h1 .image.projects { background-image: url(../img/heading-projects.png); margin-left:430px}
+h1 .image.contacts { background-image: url(../img/heading-contacts.png); margin-left:430px}
 h2, h3, h4, h5, h6 { font-family: 'Open Sans Condensed'; color: #777; text-shadow: #fff 1px 1px 0; margin: 20px 0 18px 0; }
 h2.alt, h3.alt, h4.alt, h5.alt, h6.alt { color: #333; }
 h2 a, h3 a, h4 a, h5 a, h6 a { text-decoration: none !important; display: inline-block; margin-bottom: -1px; }
@@ -98,7 +98,7 @@ header.fixed nav { background: inherit; width: 100%; position: fixed; top: 0; z-
 .featured .thumbnail img { width: 238px; height: 134px; }
 
 /* slogan */
-.slogan { margin-top: 21px; }
+.slogan { margin-top: 30px; }
 
 /* gallery */
 .gallery { width: 100%; overflow: hidden; }
@@ -212,8 +212,9 @@ textarea { resize: none; }
 
 /* footer */
 footer { margin-top: 20px; padding: 20px 0; color: #888; text-shadow: rgba(0, 0, 0, 0.75) 1px 1px 0; }
-footer .container { background: url(../img/footer-ornament.png) center center no-repeat; }
+/* footer .container { background: url(../img/footer-ornament.png) center center no-repeat; } */
 footer ul { margin: 0; list-style: none; margin-top: -2px; }
+#copyright { color: white; text-align: center}
 footer ul li:first-child { line-height: 30px; border-right: #555 1px solid; padding-right: 10px; }
 footer ul li { float: left; height: 30px; margin-left: 10px; }
 
@@ -280,7 +281,7 @@ footer ul li { float: left; height: 30px; margin-left: 10px; }
 /* Landscape phones and down */
 @media (max-width: 480px)
 {
-    footer .pull-left, footer .pull-right { float: none; height: 30px; }
+    footer .pull-left, footer .pull-right { float: none; height: 30px;}
     footer ul li:first-child { margin-left: 0; }
     h1 .left, h1 .right { font-size: 16px; line-height: 20px; }
 }
