@@ -18,7 +18,7 @@
 .background-matter { background: url(../img/bg-matter.png) #000; }
 .background-metal { background: url(../img/bg-metal.png) #000; }
 .background-nami { background: url(../img/bg-nami.png) #000; }
-.background-navy { background-color: #777}
+.background-navy { background-color: #ea8a8a}
 .background-noisy { background: url(../img/bg-noisy.png) #000; }
 .background-office { background: url(../img/bg-office.png) #000; }
 .background-outlets { background: url(../img/bg-outlets.png) #000; }
@@ -39,12 +39,13 @@
 body { background-color: white; }
 .container { max-width: 960px; }
 em { font-style: normal; }
-a, em { color:purple !important; }
+a, em { color: #685454 !important; }
 a:hover { color: #cc5500; text-decoration: underline; }
 a.thumbnail { display: inline-block; position: relative; border-color: #999 !important; }
 .thumbnail-zoom { display: block; position: absolute; top: 0; left: 0; width: 100%; height: 100%;/* background: url(../img/thumbnail-zoom.png) center center no-repeat #000;*/ }
 hr { border: 0; height: 10px; /*background: url(../img/stripes.png);*/ }
 .aboutmeText {text-align: justify}
+.page-links {text-decoration: underline}
 
 /* headings */
 h1 { display: block; height: 75px; margin: 60px 0 20px 0; font-family: 'Open Sans Condensed'; font-weight: 300; font-size: 42px; line-height: 44px; text-shadow: #fff 1px 1px 0; color: #333; background: url(../img/heading-frame.png) center center no-repeat; }
@@ -73,7 +74,7 @@ h6 { font-weight: 400; font-size: 14px; line-height: 12px; }
 
 /* header */
 header { text-align: center; margin-bottom: 20px; }
-header .logo { margin: 20px auto; width: 400px; height: 175px; }
+header .logo { margin: 20px auto; width: 600px; height: 165px; }
 header.fixed { margin-bottom: 120px; }
 header.fixed nav { background: inherit; width: 100%; position: fixed; top: 0; z-index: 9999; }
 
@@ -215,7 +216,7 @@ textarea { resize: none; }
 footer { margin-top: 20px; padding: 20px 0; color: #888; text-shadow: rgba(0, 0, 0, 0.75) 1px 1px 0; }
 /* footer .container { background: url(../img/footer-ornament.png) center center no-repeat; } */
 footer ul { margin: 0; list-style: none; margin-top: -2px; }
-#copyright { color: white; text-align: center}
+#copyright { color: #f2f2f2; text-align: center}
 footer ul li:first-child { line-height: 30px; border-right: #555 1px solid; padding-right: 10px; }
 footer ul li { float: left; height: 30px; margin-left: 10px; }
 
