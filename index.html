@@ -12,6 +12,7 @@
     <link href="http://fonts.googleapis.com/css?family=BenchNine" rel="stylesheet">
     <link href='http://fonts.googleapis.com/css?family=Open+Sans+Condensed:300' rel='stylesheet' type='text/css'>
     <link href="./css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
     <link href="./css/bootstrap-responsive.min.css" rel="stylesheet">
     <link href="./css/style.css" rel="stylesheet">
     <link href="./css/less.css" rel="stylesheet/less">
@@ -25,7 +26,7 @@
 <body>
     <header class="background-navy">
         <a href="">
-            <img src="./img/name.jpg" class = "logo" alt="logo" />
+            <img src="./img/name.jpg" class="logo" alt="logo" />
         </a>
         <nav>
             <ul class="navigation">
@@ -51,8 +52,7 @@
                 </li>
                 <li class="separator"></li>
                 <li>
-                    <a href="#contacts" class="s-tooltip" data-original-title="Ask me a question"
-                        data-placement="bottom">
+                    <a href="#contacts" class="s-tooltip" data-original-title="Ask me a question" data-placement="bottom">
                         <span class="image contacts"></span>
                         <span class="title">contacts</span>
                     </a>
@@ -60,7 +60,7 @@
                 <li class="separator"></li>
                 <li>
                     <!-- Where you should link your resume -->
-                    <a href="" class="s-tooltip" data-original-title="Download my resume" data-placement="bottom">
+                    <a href="./miscellaneous/Resume.pdf" download="Resume.pdf"class="s-tooltip" data-original-title="Download my resume" data-placement="bottom">
                         <span class="image resume"></span>
                         <span class="title">resume</span>
                     </a>
@@ -71,8 +71,8 @@
 
     <div class="container">
         <div class="row-fluid">
-                <div class="span4">
-                    <img src="./projects/design/profile.png" alt="profile photo" />
+            <div class="span4">
+                <img src="./img/profile.png" alt="profile photo" />
                 </a>
             </div>
             <div class="span8">
@@ -81,14 +81,15 @@
         </div>
 
         <!-- ABOUT ME -->
-        <h1 id="about-me">
-            <span class="image about-me"></span>
-        </h1>
-        <div class="row-fluid">
-            <div class="span12">
-                <h2>About me</h2>
-                <h3>How it all began</h3>
-                <p class="aboutmeText">As a person who always want to improve productivity and efficiency, I quickly found my passion in
+        <hr id="about-me" class="type_1">
+        <!-- <h1 id="about-me"></h1> -->
+            <!-- <span class="image about-me"></span> -->
+        <div class="row-fluid jumbotron jumbotron-fluid background-navy" >
+            <div class="span11" id="introduction">
+                <h2 style="color: #FF895D">About me</h2>
+                <h3 style="color: #FF895D">How it all began</h3>
+                <p class="aboutmeText">As a person who always want to improve productivity and efficiency, I quickly
+                    found my passion in
                     Project
                     Management (PM)/Business Analysis (BA). I started learning PM/BA on my own from different online
                     materials
@@ -98,23 +99,26 @@
                     Agile
                     Project Management and was amazed by what Technology could do. </p>
 
-                <p class="aboutmeText">To me, passion and motivation should go hand-in-hand to create balance. What motivates me in life is
+                <p class="aboutmeText">To me, passion and motivation should go hand-in-hand to create balance. What
+                    motivates me in life is
                     the
                     ability to contanstly learn new skills and improve myself, to solve and to create something
                     meaningful
                     and helpful to others. I believe Technology is the answer to my quest!</p>
 
 
-                <h3>...and now</h3>
-                <p class="aboutmeText">I'm currently enrolled in a 24-week full-stack coding bootcamp at UPENN with the hope of getting a
+                <h3 style="color: #FF895D">...and now</h3>
+                <p class="aboutmeText">I'm currently enrolled in a 24-week full-stack coding bootcamp at UPENN with the
+                    hope of getting a
                     full-stack
                     developer position after graduating.</p>
-                <p class="aboutmeText">My vision for post-coding-bootcamp program is that I will be able to develop new applications or
+                <p class="aboutmeText">My vision for post-coding-bootcamp program is that I will be able to develop new
+                    applications or
                     solve technical
                     problems. At the same time, I will be able to work, collaborate and learn more about Agile
                     development
                     methodologies for Project Management.</p>
-                <br>
+                <!-- <br>
                 <h2>Other Activities/Interests</h3>
 
                 <ul id="list-inline">
@@ -141,11 +145,10 @@
                             <p>Swimming</p>
                             <img src="./img/interest-swimming.png" alt="" />
                         </div>
-                    </li>
+                    </li> -->
 
-
-                    <br>
-                    <!-- <h3>References</h3>
+                <!-- <br> -->
+                <!-- <h3>References</h3>
                     <ul class="monochrome">
                         <li>
                             <a href="">
@@ -173,12 +176,14 @@
         <!-- ABOUT ME -->
 
         <!-- SKILLS -->
-        <h1 id="skills">
-            <span class="image skills"></span>
-        </h1>
+        <!-- <h1 id="skills"> -->
+            
+            <!-- <span class="image skills"></span> -->
+        <!-- </h1> -->
+        <hr id="skills" class="type_1">
         <div class="row-fluid">
             <div class="span4">
-                <h2>Education</h2>
+                <h2 style="color: #FF895D">Education</h2>
 
                 <h4>
                     <a href="">UPENN LPS</a>
@@ -193,12 +198,12 @@
                     <br />Qualification: MBA in Global Operations</p>
             </div>
             <div class="span8">
-                <h2>Skills</h2>
+                <h2 style="color: #FF895D">Skills</h2>
                 <div class="row-fluid">
                     <div class="span6">
                         <div class="skill">
                             <div class="wrapper" data-progress="95%">
-                                <span class="tech s-tooltip" data-original-title="Excellent">HTML5 & CSS3</span>
+                                <span class="tech s-tooltip" data-original-title="Excellent">HTML5, CSS3 & Bootstrap</span>
                             </div>
                         </div>
                         <div class="skill">
@@ -213,36 +218,37 @@
                         </div>
                         <div class="skill">
                             <div class="wrapper" data-progress="75%">
-                                <span class="tech s-tooltip" data-original-title="Good">Python</span>
+                                <span class="tech s-tooltip" data-original-title="Good">React.js</span>
                             </div>
                         </div>
                     </div>
                     <div class="span6">
                         <div class="skill">
                             <div class="wrapper" data-progress="75%">
-                                <span class="tech s-tooltip" data-original-title="Good">MySQL & Sequelize</span>
+                                <span class="tech s-tooltip" data-original-title="Good">MySQL & MongoDB</span>
                             </div>
                         </div>
                         <div class="skill">
                             <div class="wrapper" data-progress="35%">
-                                <span class="tech s-tooltip" data-original-title="Some">C/C++</span>
+                                <span class="tech s-tooltip" data-original-title="Some">REST & AJAX</span>
                             </div>
                         </div>
                         <div class="skill">
                             <div class="wrapper" data-progress="75%">
-                                <span class="tech s-tooltip" data-original-title="Very good">Zend Framework</span>
+                                <span class="tech s-tooltip" data-original-title="Very good">Others</span>
                             </div>
                         </div>
                         <div class="skill">
                             <div class="wrapper" data-progress="95%">
-                                <span class="tech s-tooltip" data-original-title="Excellent">Project Management & Business Analysis</span>
+                                <span class="tech s-tooltip" data-original-title="Excellent">Project Management &
+                                    Business Analysis</span>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
-        <h2>Work experience</h2>
+        <h2 style="color: #FF895D">Work experience</h2>
         <ul class="work">
             <li>
                 <h4>Program Coordinator</h4>
@@ -262,14 +268,17 @@
                     <br />August 2018 &ndash; present</p>
             </li>
         </ul>
-        <!-- SKILLS END -->
+        <!-- SKILLS-->
 
         <!-- PROJECTS -->
-        <h1 id="projects">
-            <span class="image projects"></span>
-        </h1>
+        <!-- <hr id="projects" class="type_1"> -->
+        <!-- <h1 > -->
+            <!-- <span class="image projects"></span> -->
+        <!-- </h1> -->
+        
+        <hr id="web-design" class="type_1">
         <div id="web-design" class="row-fluid">
-            <h2>
+            <h2 style="color: #FF895D">
                 Web development
                 <span class="gallery-nav pull-right" data-gallery="#gallery-web-design">
                     <a href="#" class="prev">
@@ -298,9 +307,11 @@
                             <p>Create a local business website for a massage therapist.
                                 <!-- The link to the DEPLOYED project -->
                                 <br>
-                                <a href="https://anhlu8.github.io/Group5Project/" target="_blank" class="page-links">Living Water Massage
+                                <a href="https://anhlu8.github.io/Group5Project/" target="_blank" class="page-links">Living
+                                    Water Massage
                                     website</a>.</p>
-                            <a href="https://github.com/anhlu8/Group5Project" target="_blank" class="page-links">GitHub Repo</a>
+                            <a href="https://github.com/anhlu8/Group5Project" target="_blank" class="page-links">GitHub
+                                Repo</a>
                             <h4>Key features / Technologies</h4>
                             <!-- List of technologies used -->
                             <ul>
@@ -312,78 +323,92 @@
                                 <li>Form validation</li>
                                 <li>JavaScript</li>
                                 <li>jQuery</li>
+                                <li>AJAX</li>
+                                <li>Git</li>
                             </ul>
                         </div>
                     </li>
                     <li>
                         <a href="#" class="thumbnail">
-                            <img src="./projects/design/resume.jpg" alt="" />
+                            <img src="./img/choose-your-predator.png" alt="" />
                             <span class="thumbnail-zoom"></span>
                         </a>
                         <div class="info">
-                            <h3>Creatica - coming soon page</h3>
+                            <h3>Choose Your Predator</h3>
                             <p>Creatica template is a clean and modern coming soon single page theme built with HTML5
                                 and CSS3,
-                                sold exclusively on
-                                <a href="http://themeforest.net/item/creatica-coming-soon-page/3304404">themeforest.net</a>.</p>
-                            <h4>Key features / Technologies</h4>
+                                sold exclusively on.
+                                
+                                <a href="http://http://chooseyourpredator.herokuapp.com/" target="_blank" class="page-links">Choose Your Predator App</a></p>
+                                <a href="" target="_blank" class="page-links"> GitHub Repo</a>  
+                                <h4>Key features / Technologies</h4>
                             <ul>
-                                <li>Colorful & customizable countdown timer</li>
-                                <li>7 timer animations</li>
-                                <li>33 backgrounds</li>
-                                <li>Animated progress bar</li>
-                                <li>Social network links</li>
-                                <li>Notify me form</li>
-                                <li>Valid HTML5 + CSS3</li>
-                                <li>Included PSD design</li>
+                                <li>HTML5 & CSS3</li>
+                                <li>Bootstrap</li>
+                                <li>Firebase</li>
+                                <li>JavaScript</li>
+                                <li>jQuery</li>
+                                <li>AJAX</li>
+                                <li>Node.js</li>
+                                <li>Express</li>
+                                <li>MySQL</li>
+                                <li>Sequelize</li>
+                                <li>Passport.js</li>
+                                <li>Bcryptjs</li>
+                                <li>Heroku</li>
+                                <li>RESTful APIs</li>
+                                <li>Handlebars</li>
+                                <li>Eslint</li>
+                                <li>Git</li>
+                                <li>GitHub</li>
+                                <li>Travis CI</li>
+                                <li>MVC folder structure</li>
+                                <li>Store keys in .env</li>
                             </ul>
                         </div>
                     </li>
                     <li>
                         <a href="#" class="thumbnail">
-                            <img src="./projects/design/f3team.jpg" alt="" />
+                            <img src="./img/eat-da-burger.png" alt="" />
                             <span class="thumbnail-zoom"></span>
                         </a>
                         <div class="info">
-                            <h3>Creatica - coming soon page</h3>
+                            <h3>Eat-Da-Burger</h3>
                             <p>Creatica template is a clean and modern coming soon single page theme built with HTML5
                                 and CSS3,
                                 sold exclusively on
-                                <a href="http://themeforest.net/item/creatica-coming-soon-page/3304404">themeforest.net</a>.</p>
+                                <a href="https://intense-springs-10700.herokuapp.com/" target="_blank" class="page-links">Eat-Da-Burger App</a>.</p>
+                                <a href="" target="_blank" class="page-links">GitHub Repo</a>
                             <h4>Key features / Technologies</h4>
                             <ul>
-                                <li>Colorful & customizable countdown timer</li>
-                                <li>7 timer animations</li>
-                                <li>33 backgrounds</li>
-                                <li>Animated progress bar</li>
-                                <li>Social network links</li>
-                                <li>Notify me form</li>
-                                <li>Valid HTML5 + CSS3</li>
-                                <li>Included PSD design</li>
+                                <li>Handlebars</li>
+                                <li>CSS3</li>
+                                <li>Node.js</li>
+                                <li>Express</li>
+                                <li>MySQL</li>
+                                <li>JawsDB MySQL</li>
+                                <li>ORM</li>
+                                <li>Heroku</li>
+                                <li>Git</li>
+                                <li>GitHub</li>
                             </ul>
                         </div>
                     </li>
                     <li>
                         <a href="#" class="thumbnail">
-                            <img src="./projects/design/mbox.jpg" alt="" />
+                            <img src="./img/bamazon.png" alt="" />
                             <span class="thumbnail-zoom"></span>
                         </a>
                         <div class="info">
-                            <h3>Creatica - coming soon page</h3>
-                            <p>Creatica template is a clean and modern coming soon single page theme built with HTML5
-                                and CSS3,
-                                sold exclusively on
-                                <a href="http://themeforest.net/item/creatica-coming-soon-page/3304404">themeforest.net</a>.</p>
-                            <h4>Key features / Technologies</h4>
+                            <h3>Bamazon</h3>
+                            <p>Amazon-like storefront application.</p>
+                                <a href="https://drive.google.com/file/d/1WqthsNJDCf5Tv6G6gTyDrsjaf8oonzzQ/view" target="_blank" class="page-links">Demo Video</a>
+                                <br>
+                                <a href="https://github.com/anhlu8/bamazon" target="_blank" class="page-links">GitHub Repo</a>
+                                <h4>Key features / Technologies</h4>
                             <ul>
-                                <li>Colorful & customizable countdown timer</li>
-                                <li>7 timer animations</li>
-                                <li>33 backgrounds</li>
-                                <li>Animated progress bar</li>
-                                <li>Social network links</li>
-                                <li>Notify me form</li>
-                                <li>Valid HTML5 + CSS3</li>
-                                <li>Included PSD design</li>
+                                <li>MySQL</li>
+                                <li>Node.js</li>
                             </ul>
                         </div>
                     </li>
@@ -643,7 +668,7 @@
                 </ul>
             </div>
         </div> -->
-        <!-- PROJECTS END -->
+        <!-- PROJECTS-->
 
         <!-- <div id="php-development" class="row-fluid">
             <h2>
@@ -853,11 +878,11 @@
 
         <!-- CONTACTS -->
         <h1 id="contacts">
-            <span class="image contacts"></span>
+            <!-- <span class="image contacts"></span> -->
         </h1>
-        <div class="row-fluid">
-            <div class="span5">
-                <form action="?" method="post">
+        <!-- <div class="row-fluid">
+            <div class="span5"> -->
+        <!-- <form action="?" method="post">
                     <h4>E-mail</h4>
                     <div class="border-stripes">
                         <input type="email" class="textfield" name="email" placeholder="Your e-mail address" />
@@ -869,27 +894,26 @@
                     <br />
                     <br />
                     <input type="submit" class="button" value="Send message" />
-                </form>
-            </div>
-            <div class="span3">
+                </form> -->
+
+
+        <!-- </div> -->
+        <!-- <div class="span3">
                 <h3>How to reach me</h3>
-                <ul class="group-icon">
-                    <!-- <li>
+                <ul class="group-icon"> -->
+        <!-- <li>
                         <img src="./img/contacts-phone.png" alt="" />
                         <strong>Phone</strong>
                         <a href="callto:00359898488496+type=phone">(+1) 412-315-4728</a>
                     </li> -->
-                    <li>
-                        <img src="./img/contacts-email.png" alt="" />
-                        <strong>E-mail</strong>
-                        <a href="mailto:anhlu8@outlook.com">anhlu8@outlook.com</a>
-                    </li>
-                    <li>
-                        <img src="./img/contacts-linkedin.png" alt="" />
-                        <strong>LinkedIn</strong>
-                        <a href="https://www.linkedin.com/in/anhlu8/">Anh's LinkedIn</a>
-                    </li>
-                    <!-- <li>
+        <!-- <li>
+                        
+                       
+                    </li> -->
+        <!-- <li>
+                       
+                    </li> -->
+        <!-- <li>
                         <img src="./img/contacts-facebook.png" alt="" />
                         <strong>Facebook</strong>
                         <a href="http://facebook.com/john.johnson">http://facebook.com/john.johnson</a>
@@ -899,18 +923,15 @@
                         <strong>Twitter</strong>
                         <a href="http://twitter.com/john.johnson">http://twitter.com/john.johnson</a>
                     </li> -->
-                </ul>
-            </div>
-            <div class="span4">
-                <h3>Checkout my other websites</h3>
+        <!-- </ul> -->
+        <!-- </div> -->
+        <!-- <div class="span4"> -->
+        <!-- <h3>Checkout my other websites</h3>
                 <ul class="group-icon">
                     <li>
-                        <img src="./img/other-website-github.png" alt="" />
-                        <strong>GitHub</strong>
-                        <a href="https://github.com/anhlu8">Anh's GitHub Repos</a>
-                    </li>
+                    </li> -->
 
-                    <!-- <li>
+        <!-- <li>
                             <img src="./img/contacts-facebook.png" alt="" />
                             <strong>Facebook</strong>
                             <a href="http://facebook.com/john.johnson">http://facebook.com/john.johnson</a>
@@ -920,15 +941,15 @@
                             <strong>Twitter</strong>
                             <a href="http://twitter.com/john.johnson">http://twitter.com/john.johnson</a>
                         </li> -->
-                </ul>
-            </div>
-        </div>
-        <!-- CONTACTS END -->
+        <!-- </ul> -->
+        <!-- </div> -->
+    </div>
+    <!-- CONTACTS-->
     </div>
 
     <footer class="background-navy">
         <div class="container">
-            <div id="copyright">Copyright &copy; 2018</div>
+                <!-- <div id="copyright"> -->
             <!-- <ul class="pull-right">
                 <li>Connect</li>
                 <li>
@@ -947,6 +968,17 @@
                     </a>
                 </li>
             </ul> -->
+            
+            
+            <div class="group-icon">
+                <a id="email" href="mailto:anhlu8@outlook.com" title="anhlu8@outlook.com"><img src="./img/contacts-email.png"
+                        alt="" /></a>
+                <a id="linkedin" href="https://www.linkedin.com/in/anhlu8/" target="_blank"><img src="./img/contacts-linkedin.png"
+                        alt="" /></a>
+                <a href="https://github.com/anhlu8" target="_blank"><img src="./img/other-website-github.png" alt="" /></a>
+            </div>
+            <p id = "copyright">Anh Lu &copy; 2018</p>
+            </div>
         </div>
     </footer>
 
