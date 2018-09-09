@@ -18,7 +18,7 @@
 .background-matter { background: url(../img/bg-matter.png) #000; }
 .background-metal { background: url(../img/bg-metal.png) #000; }
 .background-nami { background: url(../img/bg-nami.png) #000; }
-.background-navy { background-color:#1B3C59}
+.background-navy { background-color:#233142}
 .background-noisy { background: url(../img/bg-noisy.png) #000; }
 .background-office { background: url(../img/bg-office.png) #000; }
 .background-outlets { background: url(../img/bg-outlets.png) #000; }
@@ -56,6 +56,11 @@ hr.type_1 {
     align: center;
     background-position: center;
     }
+
+#titleName {
+    padding-top: 100px;
+    font-size: 40px
+}
 
 
 /* headings */
@@ -109,7 +114,7 @@ header.fixed nav { background: inherit; width: 100%; position: fixed; top: 0; z-
 .featured { width: 303px; height: 224px; background: url(../img/featured-curly.png) right center no-repeat; }
 .featured h3 { margin: 16px 0 16px 0; }
 .featured .thumbnail img { width: 238px; height: 134px; }
-.jumbotron {padding-left: 50px; background-color: #FDF3F3}
+.jumbotron {padding-left: 50px; background-color: #F8E7E7}
 .interest{width:30px; height: 80px; padding-top: 5px}
 /* slogan */
 .slogan { margin-top: 30px}
