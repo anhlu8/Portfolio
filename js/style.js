@@ -162,7 +162,7 @@ $(document).ready(function() {
     
     // Skills progress bar
     $('.skill .wrapper[data-progress]').each(function() {
-        $(this).width($(this).attr('data-progress'));
+        $(this).css('width', $(this).attr('data-progress'));
     });
     
     // Work experience
