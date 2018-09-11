@@ -36,7 +36,7 @@
 /* common */
 ::selection { background: #555; color: #fff; text-shadow: none; }
 ::-moz-selection { background: #555; color: #fff; text-shadow: none; }
-body { background-color: white; }
+body { background-color: white; font-family: 'EB Garamond', serif;}
 .container { max-width: 960px; }
 em { font-style: normal; }
 a, em { color: #685454 !important; }
@@ -74,7 +74,7 @@ h1 .image.about-me { background-image: url(../img/heading-about-me.png); margin-
 h1 .image.skills { background-image: url(../img/heading-skills.png); margin-left:50%}
 h1 .image.projects { background-image: url(../img/heading-projects.png); margin-left:50%}
 h1 .image.contacts { background-image: url(../img/heading-contacts.png); margin-left:50%}
-h2, h3, h4, h5, h6 { font-family: 'Open Sans Condensed'; color: #777; text-shadow: #fff 1px 1px 0; margin: 20px 0 18px 0; }
+h2, h3, h4, h5, h6 { font-family: 'Arima Madurai', cursive; color: #777; text-shadow: #fff 1px 1px 0; margin: 20px 0 18px 0; }
 h2.alt, h3.alt, h4.alt, h5.alt, h6.alt { color: #333; }
 h2 a, h3 a, h4 a, h5 a, h6 a { text-decoration: none !important; display: inline-block; margin-bottom: -1px; }
 h2 { font-weight: 300; font-size: 35px; line-height: 27px; margin: 19px 0 14px 0; }
