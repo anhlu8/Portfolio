@@ -960,6 +960,9 @@ footer ul li {
     header.fixed nav {
         position: relative;
     }
+    canvas {
+        display: none;
+    }
 }
 
 @media (max-width: 500px) {
@@ -982,6 +985,9 @@ footer ul li {
 
     .navigation li:nth-child(7) {
         margin-left: 50px;
+    }
+    canvas {
+        display: none;
     }
 }
 
@@ -1023,6 +1029,9 @@ footer ul li {
     .jumbotron {
         padding: 0 7px
     }
+    canvas {
+        display: none;
+    }
 }
 
 /* Landscape phones and down */
@@ -1051,5 +1060,9 @@ footer ul li {
 
     .jumbotron {
         padding: 0 40px
+    }
+
+    canvas {
+        display: none;
     }
 }
