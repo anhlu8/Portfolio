@@ -5,7 +5,7 @@ var ctx = canvas.getContext('2d');
 
 var width = void 0,height = void 0,lastNow = void 0;
 var snowflakes = void 0;
-var maxSnowflakes = 30;
+var maxSnowflakes = 20;
 
 function init() {
   snowflakes = [];
@@ -23,7 +23,7 @@ function render(now) {
   if (snowflakes.length < maxSnowflakes)
   snowflakes.push(new Snowflake());
 
-  ctx.fillStyle = ctx.strokeStyle = '#fff';
+  ctx.fillStyle = ctx.strokeStyle = '#4C6983';
 
   snowflakes.forEach(function (snowflake) {return snowflake.update(elapsed, now);});
 }
