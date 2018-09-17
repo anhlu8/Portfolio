@@ -92,7 +92,7 @@ var rand = function rand(min, max) {return min + Math.random() * (max - min);};
 
 function resize() {
   width = canvas.width = window.innerWidth;
-  height = canvas.height = window.innerHeight = 300;
+  height = canvas.height = window.innerHeight = 240;
 }
 
 window.addEventListener('resize', resize);
