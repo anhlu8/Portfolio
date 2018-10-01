@@ -524,11 +524,11 @@ header.fixed nav {
 }
 
 .gallery>ul>li {
-    width: 176px;
+    width: 170px;
     height: 104px;
     display: block;
     float: left;
-    margin-right: 20px;
+    margin-right: 10px;
 }
 
 .gallery .info {
@@ -545,7 +545,7 @@ header.fixed nav {
 }
 
 .gallery.open>ul>li {
-    width: 960px;
+    width: 950px;
     height: 276px;
 }
 
